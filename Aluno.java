@@ -44,9 +44,9 @@ class Aluno {
     public static void main(String[] args) {
         Aluno[] alunos = new Aluno[3];
 
-        alunos[0] = new Aluno("Rennan", 01234, new double[]{7.0, 8.0, 5.0});
-        alunos[0] = new Aluno("Arthur", 435678, new double[]{6.0, 7.0, 8.0});
-        alunos[0] = new Aluno("Marina", 94567, new double[]{7.0, 8.0, 9.0});
+        alunos[0] = new Aluno("Rennan", 456678, new double[]{7.0, 8.0, 5.0});
+        alunos[1] = new Aluno("Arthur", 435678, new double[]{6.0, 7.0, 8.0});
+        alunos[2] = new Aluno("Marina", 94567, new double[]{7.0, 8.0, 9.0});
 
         for (Aluno aluno : alunos) {
             double media = aluno.calcularMedia();
